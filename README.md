@@ -8,7 +8,10 @@ npm test:import # import './a.js';
 npm test:require # require('./a.js');
 ```
 
+<details>
+<summary>
 ❌ Output:
+</summary>
 
 ```
 node:internal/assert:17
@@ -35,6 +38,9 @@ Please open an issue with this stack trace at https://github.com/nodejs/node/iss
 Node.js v24.1.0
 ```
 
+</details>
+
+
 > [!NOTE]
 >
 > - Even using the explicit `commonjs` type in the _package.json_, the error remains the same.
@@ -48,7 +54,8 @@ If we go back to [**tsx**](https://github.com/privatenumber/tsx) `v4.19.4`, the 
 
 ```sh
 npm i -D tsx@4.19.4
-npm test
+npm test:import # import './a.js';
+npm test:require # require('./a.js');
 ```
 
 ✅ Output:
