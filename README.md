@@ -42,11 +42,10 @@ Node.js v24.1.0
 
 </details>
 
-
 > [!NOTE]
 >
 > - Even using the explicit `commonjs` type in the _package.json_, the error remains the same.
-> - Despite using `“module”:“CommonJS”`, `"esModuleInterop": true` or no _tsconfig.json_, the error remains the same.
+> - Despite using `"module":"CommonJS"`, `"esModuleInterop": true` or no _tsconfig.json_, the error remains the same.
 
 ---
 
