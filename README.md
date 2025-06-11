@@ -1,5 +1,7 @@
 ## [tsx](https://github.com/privatenumber/tsx) issue minimal reproduction
 
+- https://github.com/privatenumber/tsx/issues/722
+
 ### Reproducing the error:
 
 ```sh
