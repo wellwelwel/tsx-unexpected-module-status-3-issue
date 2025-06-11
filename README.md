@@ -5,7 +5,7 @@
 ### Reproducing the error:
 
 ```sh
-npm ci # tsx 4.20.0
+npm ci # tsx 4.20.1
 npm test:import # import './a.js';
 npm test:require # require('./a.js');
 ```
