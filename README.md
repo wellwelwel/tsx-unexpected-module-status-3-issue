@@ -5,9 +5,9 @@
 ### Reproducing the error:
 
 ```sh
-npm ci # tsx 4.20.1
-npm test:import # import './a.js';
-npm test:require # require('./a.js');
+npm ci # tsx 4.20.2
+npm run test:import # import './a.js';
+npm run test:require # require('./a.js');
 ```
 
 <details>
@@ -55,8 +55,8 @@ If we go back to [**tsx**](https://github.com/privatenumber/tsx) `v4.19.4`, the 
 
 ```sh
 npm i -D tsx@4.19.4
-npm test:import # import './a.js';
-npm test:require # require('./a.js');
+npm run test:import # import './a.js';
+npm run test:require # require('./a.js');
 ```
 
 ✅ Output:
